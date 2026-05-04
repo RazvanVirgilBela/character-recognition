@@ -2,7 +2,7 @@
 """Augment character images to create a dataset dataset.
 
 Usage:
-    python3 src/augment.py --src Fonts20X32 --dst dataset --per_class 20
+    python3 src/augment.py --src Fonts20X32 --dst dataset --per_class 100
 
 This script finds images in `--src`, groups them by filename stem (character label),
 creates `--dst/<label>/` and writes binarized augmented images until each class has
